@@ -2,6 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@raute()
+@route()
 def jobs():
-    return render_template('index.html')
+    return render_template('index.html') 
